@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Vue Mastery</title>
+    <!-- Import Styles -->
+    <link rel="stylesheet" href="./assets/styles.css" />
+    <!-- Import Vue.js -->
+    <script src="https://unpkg.com/vue@3.0.11/dist/vue.global.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <h3>title: {{title}}</h3>
+
+      <p>description: 
+        {{description}}
+      </p>
+
+      <p>post Date: {{date}}</p>
+
+      <p>
+        author: {{author}}
+      </p>
+
+    </div>
+
+    <!-- Import Js -->
+    <script src="./main.js"></script>
+
+
+    <script>
+      const mountedApp = app.mount("#app")
+    </script>
+  </body>
+</html>
